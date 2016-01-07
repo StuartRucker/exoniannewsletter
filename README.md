@@ -8,7 +8,7 @@ People will, on theexonian.com, enter their email. It will be sent to the databa
 Insert subscribe.html into the footer of theexonian.com
 ####2. 
 Make unsubscribe.html look nicer, and get its own url on theexonian.com/asdfasdfadsf
-####
-3. Make the footer of outer.html for the newsletter look nicer
+####3.
+Make the footer of outer.html for the newsletter look nicer
 
 ![alt tag](http://i.imgur.com/nWXvvC7.png)
