@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Demystifying Email Design</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+   <body style="margin: 0; padding: 0;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+            <td>
+               <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+                  <tr>
+                     <td>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                           <tr>
+                              <td align="center" bgcolor="#B91511" style="padding: 0px 0px 0px 0px;">
+                                 <h1 style = "font-family: 'Franklin Gothic Medium','Franklin Gothic','ITC Franklin Gothic',Arial,sans-serif; color: white; font-size: 60px;"> The Exonian </h1>
+                              </td>
+                           </tr>
+~##innerHTML##~             
+                     </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td bgcolor="#a6a6a6" style=" border-style: solid;  border-width: 10px; border-color: #B91511; font-size: 14px; color: #ffffff; font-family: Arial; padding: 20px 20px 20px 20px;">
+                       
+                      
+                              Support the Exonian and buy a paper subscription. <br> Subsribe online at <a style = " color:black;" href = "http://theexonian.com/subscribe/">theExonian.com</a>  or send a   check for $75 domestic, $125 international to...<Br><Br>
+                           
+                           The Exonian <Br>
+                           P.O. 2465<Br>
+                           20 Main Street<Br>
+                           Phillips Exeter Academy<Br>
+                           Exeter, NH 03833<Br>
+                           
+                           <Br> <Br>
+                           <a style = "color:black;" href = "http://stuartrucker.github.io/Exonian/emailRemove.html" >Click Here to Unsubscribe from this Newsletter</a>
+                       
+                       
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+   </body>
+</html>

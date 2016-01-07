@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+	<script>
+		var ref = new Firebase("https://emailexonian.firebaseio.com/");
+				
+		function sub(){
+			var email = $("#enteremail").val()
+			if(validateEmail(email)){
+				alert("Adding " + email + " to the email list")
+				ref.push(email)
+			}else{
+				alert("Invalid Email")
+			}
+			
+		}
+		
+		function validateEmail(email) {
+		    var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		    return re.test(email);
+		}
+		
+	</script>
+	<title></title>
+</head>
+<body>
+	<h4> Sign Up For Newsletter </h4>
+	<input type="text" id="enteremail" placeholder="jane.doe@example.com">
+	<button onclick="sub()">Submit </button>
+	<br>
+	<a href = "http://stuartrucker.github.io/Exonian/emailRemove.html"> Remove your email </a>
+</body>
+</html>
